@@ -11,6 +11,12 @@ fast and easy boilerplate.
 `m4` is used to merge multiple files together and, possibly, do other
 preprocessing (up to you).
 
+## Features
+
+* Split your work in multiple files and then merge it all with `make build`
+    into a single `.rkt` file (useful for submission).
+* Make tests painless with a simple test runner.
+
 ## Requirements and how to get them
 
 - `make`
@@ -74,7 +80,7 @@ statements to make assertions easier and faster.
 ### Test Runner
 
 The test runner (invokable with `make test`) will collect all your test
-assertions and instead of outputting `GoOd ReSuLT` for 40 of your test cases
+assertions and instead of outputting `good` for 40 of your test cases
 filling your terminal up with nonsense you don't care about, the runner will
 mangle it up and clean it up for you. It will, of course, preserve when test
 cases fail (unless I made a bug somewhere :)).
