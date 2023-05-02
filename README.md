@@ -1,4 +1,8 @@
-# Homework Runner
+# [ARCHIVED] Homework Runner
+
+This repository is archived as I have finished this course and do not wish to
+spend time managing software I have no means of testing. If you have a use for
+this repo, feel free to fork it.
 
 ## What is this?
 
